@@ -4,7 +4,7 @@ import urllib.request
 
 SOURCE_URL = os.environ["SOURCE_URL"]
 OUTPUT_FILE = "sub.txt"
-NEW_NAME = "USA🇺🇸"
+NEW_NAME = "USA 🇺🇸"
 
 # دریافت Subscription اصلی
 req = urllib.request.Request(
